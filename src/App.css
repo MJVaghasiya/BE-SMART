@@ -61,7 +61,7 @@ body {
   box-sizing: border-box;
   font-size: 10px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0 ;
 }
 
 h1,
@@ -124,6 +124,9 @@ ul {
 .padding-left-0 {
   padding-left: 0 !important;
 }
+.padding-right-0 {
+  padding-right: 0 !important;
+}
 
 .padding-0 {
   padding-left: 0;
@@ -136,7 +139,9 @@ a {
   text-decoration: none !important;
 
 }
-
+.font-100{
+  font-weight: 100 !important;
+}
 .blue {
   color: #3498db;
 }
@@ -149,6 +154,9 @@ a {
   left: 0;
   width: 100%;
   background-color: var(--white-color);
+}
+.navbar{
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
 }
 
 .nav {
@@ -203,12 +211,12 @@ nav li a:hover {
 nav li.active a {
   font-size: 14px;
   line-height: 45px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700 !important;
   color: var(--prime-color) !important;
   padding: 15px;
   margin-bottom: 20px;
-  /* transition: all 0.5s ease; */
+  transition: all .75s ease;
 }
 
 #btn1 {
@@ -239,6 +247,11 @@ nav li.active a {
   font-weight: 700;
   align-items: center;
   font-size: 0.875rem;
+
+}
+.navbar-nav{
+  position: relative;
+  z-index: 10;
 }
 
 
@@ -422,6 +435,15 @@ li::marker {
   animation: fade-out 3000ms;
   animation-delay: .5s;
 }
+.padding{
+  padding: 0 25px;
+}
+
+@media only screen and (max-width: 988px) {
+  .padding{
+    padding: 0 0px;
+  }
+}
 
 .card-img-top {
   background-color: #34b1c4;
@@ -433,22 +455,22 @@ li::marker {
   padding: 20px 20px 20px 20px;
 }
 
-.margin-auto {
+/* .margin-auto {
   margin: auto !important;
-}
+} */
 
-.x-minus-35 {
+/* .x-minus-35 {
   position: relative;
   transform: translateX(-35%);
   animation: fade-out 3000ms;
-}
-
+} */
+/* 
 .x-plus-35 {
   position: relative;
   transform: translateX(35%);
   animation: fade-out 3000ms;
   animation-delay: 1s;
-}
+} */
 
 .card-text {
   font-size: 15px;
@@ -456,6 +478,7 @@ li::marker {
   width: 120%;
   position: relative;
   right: 22px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .width-3 {
@@ -509,6 +532,18 @@ ul.page-list li {
   line-height: 3.3rem;
   margin: 110px 54px;
 }
+@media screen and (max-width: 900px) {
+  .achived-card  {
+    margin: 110px 33px;
+    position: relative;
+    left: -62px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .fact-name{
+   width: 111%;
+  }
+}
 
 .fact-number {
   margin-bottom: 0rem !important;
@@ -527,6 +562,20 @@ ul.page-list li {
 
 
 /* IMAGE CAROUSEL */
+
+.page-head{
+  color: gray;
+  font-size: 17px;
+  margin: auto;
+  width: 50%;
+}
+@media screen and (max-width: 900px) {
+  .page-head{
+    width: 69% !important;
+  }
+}
+
+
 .lightbox {
   position: relative;
   display: flex;
@@ -673,7 +722,10 @@ ul.page-list li {
 
 .form-input {
   background: none;
-  border: 1px solid white;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
   height: 50px;
   width: 47%;
   border-radius: 6px;
@@ -842,8 +894,13 @@ ul.page-list li {
   border-radius: 6px;
   color: white;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   font-size: 0.9rem;
+}
+@media screen and (max-width: 900px) {
+  .try-it-free {
+    width: 23%;
+  }
 }
 
 .news-card {
@@ -922,7 +979,20 @@ ul.page-list li {
   line-height: 77px;
   font-family: sans-serif;
 }
+.dicover-more{
+  background-color: #34b1c4;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.3333333;
+border: none;
+padding: 16px 28px;
 
+border-radius: 6px;
+}
 .design {
   text-align: start;
   padding-top: 150px;
@@ -1021,6 +1091,7 @@ ul.page-list li {
 
 .form-textarea::placeholder {
   color: white;
+  padding-left: 8px;
 }
 
 .send-message {

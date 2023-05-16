@@ -31,14 +31,14 @@ const News = () => {
                         <div className='page-underline '>
                             <AiFillStar className='color' />
                         </div>
-                        <p style={{ color: "gray", fontSize: "17px", margin: "auto", width: "50%" }} >There are many variations of passages of Lorem Ipsum available, but the majority
+                        <p className='page-head'>There are many variations of passages of Lorem Ipsum available, but the majority
                             have suffered alteration, by injected humour, or new randomised words.</p>
                     </div>
                 </div>
 
                 <div className='news-card-main '>
                     <div className='row w-104 '>
-                        <div className='col-lg-4'> <div className='news-card ds-grid '>
+                        <div className='col-sm-4'> <div className='news-card ds-grid '>
                             <div className='news-card-img first '>
                                     <img className='card-img' src={img1} />
                                     <div class="middle">
@@ -50,9 +50,9 @@ const News = () => {
                             </div>
                             <div className='news-card-intro'>
                                 <h3 style={{ fontSize: "1.3125rem" }} >Affinity Designer Quick Start</h3>
-                                <h6 className='color-gray'><BsFillPersonFill />By MJ VAGHASIYA |  <FaTags /> WordPress</h6>
+                                <h6 className='color-gray font-100'><BsFillPersonFill />By MJ VAGHASIYA |  <FaTags /> WordPress</h6>
                                 <p>Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa illum sedit consequatur quias quiste varias netsum.</p>
-                                <button type='button' id='btn-info' style={{ width: "33%" }} >Read More!</button>
+                                <button type='button' id='btn-info' className='btn-info' >Read More!</button>
                             </div>
                         </div></div>
 
@@ -61,7 +61,7 @@ const News = () => {
 
                         {/* SECOND */}
 
-                        <div className='col-lg-4'> <div className='news-card ds-grid '>
+                        <div className='col-sm-4'> <div className='news-card ds-grid '>
                             <div className='news-card-img first '>
                                 <img className='card-img' src={img2} />
                                 <div class="middle">
@@ -72,9 +72,9 @@ const News = () => {
                             </div>
                             <div className='news-card-intro'>
                                 <h3 style={{ fontSize: "1.3125rem" }} >Solid HTML Form Structure</h3>
-                                <h6 className='color-gray' ><BsFillPersonFill /> By MJ VAGHASIYA  |  <FaTags /> Marketing</h6>
+                                <h6 className='color-gray font-100' ><BsFillPersonFill /> By MJ VAGHASIYA  |  <FaTags /> Marketing</h6>
                                 <p>Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa illum sedit consequatur quias quiste varias netsum.</p>
-                                <button type='button' id='btn-info' style={{ width: "33%" }} >Read More!</button>
+                                <button type='button' id='btn-info' className='btn-info' >Read More!</button>
                             </div>
                         </div>
                         </div>
@@ -83,7 +83,7 @@ const News = () => {
 
                         {/* THIRD */}
 
-                        <div className='col-lg-4'>  <div className='news-card ds-grid '>
+                        <div className='col-sm-4'>  <div className='news-card ds-grid '>
                             <div className='news-card-img first'>
                                 <img className='card-img' src={img3} />
                                 <div class="middle">
@@ -94,9 +94,9 @@ const News = () => {
                             </div>
                             <div className='news-card-intro'>
                                 <h3 style={{ fontSize: "1.3125rem" }} >New WordPress Theme</h3>
-                                <h6 className='color-gray'><BsFillPersonFill />By MJ VAGHASIYA |  <FaTags /> Design</h6>
+                                <h6 className='color-gray font-100'><BsFillPersonFill />By MJ VAGHASIYA |  <FaTags /> Design</h6>
                                 <p>Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa illum sedit consequatur quias quiste varias netsum.</p>
-                                <button type='button' id='btn-info' style={{ width: "33%" }} >Read More!</button>
+                                <button type='button' id='btn-info' className='btn-info' >Read More!</button>
                             </div>
                         </div></div>
                     </div>
@@ -131,7 +131,7 @@ const News = () => {
                         <h2>Watch the video presentation.</h2>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque porro quisquam est, qui ipsum quiaim netsum. Consequuntur sequimagni.</p>
                         <p>Consequuntur magni netsum es qui ratione sequi nesciunt. Neque vetim quisquat, quia voluptas quistri ipsum quiaim magni eti ratione.</p>
-                        <button id='btn btn-info' style={{ width: "30%" }} >Discover-more</button>
+                        <button className='dicover-more btn-blue small btn-lg'>Discover-more</button>
                     </div>
                 </div>
             </div>

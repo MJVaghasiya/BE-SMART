@@ -42,7 +42,7 @@ const Work = () => {
           <div className='page-underline '>
             <AiFillStar className='color' />
           </div>
-          <p style={{ color: "gray", fontSize: "17px", margin: "auto", width: "50%" }} >There are many variations of passages of Lorem Ipsum available, but the majority
+          <p className='page-head'>There are many variations of passages of Lorem Ipsum available, but the majority
             have suffered alteration, by injected humour, or new randomised words.</p>
         </div>
 

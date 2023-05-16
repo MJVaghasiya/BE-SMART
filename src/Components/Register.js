@@ -6,9 +6,10 @@ const Register = () => {
   return (
     <section id='Register'>
     <div id='Register' className='pd-6'>
+  
       
 <div className='row w-100  backround-color register-row '>
-  <div className='col-lg-6 padding-left-0 '>
+  <div className='col-lg-6 padding-left-0 padding-right-0'>
 <img className='w-100 ' src={img1}/>
   </div>
   <div className='col-lg-6 register-col'>
@@ -32,9 +33,9 @@ const Register = () => {
  </div>
   </div>
 </div>
+</div>
 
-
-    </div>
+  
     </section>
     
   )

@@ -11,6 +11,7 @@ import {AiFillSkype} from 'react-icons/ai'
 const Touch = () => {
     
     return (
+        <section id='Touch'>
         <div id='Touch'>
         <div>
         <div className='touch' id='Touch'>
@@ -63,6 +64,7 @@ const Touch = () => {
         
         </div>
         </div>
+        </section>
     )
 }
 

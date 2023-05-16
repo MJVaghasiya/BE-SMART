@@ -65,7 +65,7 @@ Business With BeSmart?
             <div className='partner-logo'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-sm-12 '>
+                    <div className='col-sm-12'>
                     <img className='sponsor-logo' src={img5}/>
 <img className='sponsor-logo' src={img6}/>
 <img className='sponsor-logo' src={img7}/>

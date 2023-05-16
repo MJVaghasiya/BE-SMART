@@ -29,7 +29,7 @@ class Services extends React.Component {
                     <div className='page-underline '>
                         <AiFillStar className='color' />
                     </div>
-                    <p style={{ color: "gray", fontSize: "17px", margin:"auto", width:"50%" }} >There are many variations of passages of Lorem Ipsum available, but the majority
+                    <p className='page-head' >There are many variations of passages of Lorem Ipsum available, but the majority
 have suffered alteration, by injected humour, or new randomised words.</p>
                 </div>
 </div>
@@ -39,7 +39,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 <img className='services-img' src={img1}/>
 <div className='services-card'>
     <div className='row'>
-        <div className='col-lg-4'><div className='full-des  wow fadeIn'  data-wow-delay="0.15s">
+         <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn'  data-wow-delay="0.15s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img2}/>
     </div><div className='description'>
@@ -52,7 +52,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 
 {/* SECOND */}
 
-        <div className='col-lg-4'><div className='full-des  wow fadeIn '  data-wow-delay="0.30s">
+         <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn '  data-wow-delay="0.30s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img3}/>
     </div><div className='description'>
@@ -64,7 +64,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 
 {/* THIRD */}
 
-        <div className='col-lg-4'><div className='full-des  wow fadeIn'  data-wow-delay="0.45s">
+         <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn'  data-wow-delay="0.45s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img4}/>
     </div><div className='description'>
@@ -76,7 +76,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 
 {/* FOURTH */}
 
-        <div className='col-lg-4'><div className='full-des  wow fadeIn'  data-wow-delay="0.6s">
+         <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn'  data-wow-delay="0.6s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img5}/>
     </div><div className='description'>
@@ -88,7 +88,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 
 {/* FIFTH */}
 
-        <div className='col-lg-4'><div className='full-des  wow fadeIn'  data-wow-delay="0.75s">
+         <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn'  data-wow-delay="0.75s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img6}/>
     </div><div className='description'>
@@ -100,7 +100,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 
 {/* SIXTH */}
 
-        <div className='col-lg-4'><div className='full-des  wow fadeIn '  data-wow-delay="0.9s">
+         <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn '  data-wow-delay="0.9s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img7}/>
     </div><div className='description'>

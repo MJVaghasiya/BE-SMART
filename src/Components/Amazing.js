@@ -36,9 +36,9 @@ class Amazing extends React.Component {
 
 
 
-                    <div className='feature-card ds-flx '>
-                        <div className='row margin-auto'>
-                            <div className='col-lg-4 x-minus-35'>  <div className="card" style={{ width: "18rem" }}>
+                    {/* <div className='feature-card ds-flx '> */}
+                        <div className='row '>
+                            <div className='col-lg-4 col-md-4 padding '>  <div className="card" >
                                 <img src={img1} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title weight-700">Fully Customizable</h5>
@@ -49,7 +49,7 @@ class Amazing extends React.Component {
 
 
 
-                            <div className='col-lg-4 '> <div className="card" style={{ width: "18rem" }}>
+                            <div className='col-lg-4 col-md-4 padding'> <div className="card" >
                                 <img src={img2} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title weight-700">Responsive Design</h5>
@@ -60,7 +60,7 @@ class Amazing extends React.Component {
 
 
 
-                            <div className='col-lg-4 x-plus-35'>  <div className="card" style={{ width: "18rem" }}>
+                            <div className='col-lg-4 col-md-4 padding'>  <div className="card" >
                                 <img src={img3} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">SEO Ready Code</h5>
@@ -68,7 +68,7 @@ class Amazing extends React.Component {
                                 </div>
                             </div></div>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
 
 
@@ -102,9 +102,9 @@ class Amazing extends React.Component {
 
                 <div className='overlap-fixed-img'>
 
+                        <div className='achived'>
 
                   
-                        <div className='achived'>
                             <div className='container'>
                                 <div className='row'>
                                     <div className='col-sm-12 ds-flx '>
