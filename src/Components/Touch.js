@@ -22,7 +22,7 @@ const Touch = () => {
                     <div className='page-underline-touch '>
                         <AiFillStar className='col-white' />
                     </div>
-                    <p style={{ color: "white", fontSize: "17px", margin: "auto", width: "50%" }} >There are many variations of passages of Lorem Ipsum available, but the majority
+                    <p className='page-head' >There are many variations of passages of Lorem Ipsum available, but the majority
                         have suffered alteration, by injected humour, or new randomised words.</p>
                 </div>
             </div>
@@ -30,11 +30,11 @@ const Touch = () => {
 
             <div className='container'>
                 <div className='touch-form'>
-                    <input className='form-input w-40' type='text' placeholder='Full Name*'></input>
-                    <input className='form-input w-40' type='text' placeholder='Email Adress*'></input>
-                    <input className='form-input w-40' type='text' placeholder='Subject*'></input>
-                    <input className='form-input w-40' type='text' placeholder='Phone Number*'></input>
-                    <textarea className='form-textarea' placeholder='Your Message...' ></textarea>
+                    <input className='form-input form-input-width' type='text' placeholder='Full Name*'></input>
+                    <input className='form-input form-input-width' type='text' placeholder='Email Adress*'></input>
+                    <input className='form-input form-input-width' type='text' placeholder='Subject*'></input>
+                    <input className='form-input form-input-width' type='text' placeholder='Phone Number*'></input>
+                    <textarea className='form-textarea' type='text'  placeholder='Your Message...' ></textarea>
 
 
                     <button className='send-message' >SEND MESSAGE</button>

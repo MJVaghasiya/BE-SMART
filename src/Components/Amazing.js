@@ -107,12 +107,12 @@ class Amazing extends React.Component {
                   
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='col-sm-12 ds-flx '>
+                                    <div className='col-sm-12 ds-flx ds-grid-auto '>
                                    
                                         <div className='achived-card wow fadeIn ' data-wow-delay="0.15s">
                                             <img className='hero-icon' src={img7} />
                                             <h4 className='fact-number'  >1050+</h4>
-                                            <h6 className='fact-name' >Proect Completed</h6>
+                                            <h6 className='fact-name' >Project Completed</h6>
                                         </div>
                                         
                                         <div className='achived-card  wow fadeIn' data-wow-delay="0.30s">

@@ -14,14 +14,14 @@ const Price = () => {
                     <div className='page-underline '>
                         <AiFillStar className='color' />
                     </div>
-                    <p style={{ color: "gray", fontSize: "17px", margin: "auto", width: "50%" }} >There are many variations of passages of Lorem Ipsum available, but the majority
+                    <p className='page-head' >There are many variations of passages of Lorem Ipsum available, but the majority
                         have suffered alteration, by injected humour, or new randomised words.</p>
                 </div>
             </div>
             <div className='container'>
 
                 <div className='row'>
-                    <div className='col-lg-4'>
+                <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
                         <div className='price-card'>
                             <div className='price'>
                                 <h4 className='col-white'>STARTER</h4>
@@ -38,11 +38,11 @@ const Price = () => {
                                     <li>1 user accounts</li>
                                     <li>2 databases</li>
                                 </ul>
-                                <button className='form-input btn-submit border-blue' >REGISTER TODAY</button>
+                                <button className='btn-submit register-today' >REGISTER TODAY</button>
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
                         <div className='price-card'>
                             <div className='price'>
                                 <h4 className='col-white' >  ADVANCED</h4>
@@ -58,10 +58,10 @@ const Price = () => {
                                 <li>1 user accounts</li>
                                 <li>2 databases</li>
                             </ul>
-                                <button className='form-input btn-submit border-blue' >REGISTER TODAY</button></div>
+                                <button className='btn-submit register-today' >REGISTER TODAY</button></div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
                         <div className='price-card'>
                             <div className='price'>
                                 <h4 className='col-white' >  INTERMEDIATE</h4>
@@ -77,7 +77,7 @@ const Price = () => {
                                 <li>1 user accounts</li>
                                 <li>2 databases</li>
                             </ul>
-                                <button className='form-input btn-submit border-blue ' >REGISTER TODAY</button></div>
+                                <button className='btn-submit register-today' >REGISTER TODAY</button></div>
                         </div>
                     </div>
                 </div>

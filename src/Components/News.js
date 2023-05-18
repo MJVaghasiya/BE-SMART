@@ -23,7 +23,6 @@ const News = () => {
     return (
         <section id='News'>
         <div id='News' >
-            <div className='container'>
                 <div className='work pd-6'>
                     <div className='page'>
 
@@ -36,6 +35,7 @@ const News = () => {
                     </div>
                 </div>
 
+            <div className='container'>
                 <div className='news-card-main '>
                     <div className='row w-104 '>
                         <div className='col-sm-4'> <div className='news-card ds-grid '>
@@ -110,15 +110,24 @@ const News = () => {
 
 
             <div className='section-blue'>
+                <div className='container'>
                 <div className='row w-100 padding'>
-                    <div className='col-sm-5 ds-flx border-right '>
-                        <div className='author-img'><img className='author' src={img4} /></div>
+                    <div className='col-sm-5 ds-flx border-right-padding '>
+                       
+                       
+                        {/* <div className='author-img'><img className='author' src={img4} /></div> */}
+                        
+    <div className="round">
+        <img src={img4} className='round-image' />
+    </div>
+
                         <div className='author-work'><p className='col-white' > <span className='fw-700' >ALICIA STEVENSON </span> <br /> Founder Freelancer</p></div>
                     </div>
                     <div className='col-sm-7'>
                         <p className='author-info' >"Your time is limited, so do not waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking."</p>
                     </div>
                 </div>
+            </div>
             </div>
 
 
@@ -127,7 +136,7 @@ const News = () => {
                     <div className='col-lg-6 '>
                         <iframe src="https://player.vimeo.com/video/69988283?h=374ede24b7" width='100%' height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div className='col-lg-6 video-info '>
+                    <div className='col-lg-6 video-info padding'>
                         <h2>Watch the video presentation.</h2>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque porro quisquam est, qui ipsum quiaim netsum. Consequuntur sequimagni.</p>
                         <p>Consequuntur magni netsum es qui ratione sequi nesciunt. Neque vetim quisquat, quia voluptas quistri ipsum quiaim magni eti ratione.</p>

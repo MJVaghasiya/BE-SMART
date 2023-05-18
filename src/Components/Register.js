@@ -29,7 +29,7 @@ const Register = () => {
   
 </select>
 <input type='submit' value='REGISTER-NOW' className='form-input btn-submit' ></input>
-<p className='color register-p' >*We process the payment via a secure gateway.</p>
+<p className='color register-p-notice' >*We process the payment via a secure gateway.</p>
  </div>
   </div>
 </div>

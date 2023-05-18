@@ -10,13 +10,14 @@ import News from './News'
 import Price from './Price'
 import Touch from './Touch'
 import Register from './Register'
+// import Extra from './Extra'
 
 const Home = () => {
   return (
     <div>
       {/* <Nav/> */}
         <Navbar/>
-        {/* <Hero/> */}
+        <Hero/>
         <Amazing/>
         <Work/>
         <Register/>
@@ -25,6 +26,7 @@ const Home = () => {
       <News/>
       <Price/>
       <Touch/>
+      {/* <Extra/> */}
     </div>
   )
 }
