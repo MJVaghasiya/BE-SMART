@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
-  <div class="container-fluid">
+  <div class="container-fluid nav-container ">
                      <a class="navbar-brand logo " href="#"><span className='blue' >Bé</span>Smart</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

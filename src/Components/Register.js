@@ -5,7 +5,7 @@ import img1 from '../assets/register-form.jpg'
 const Register = () => {
   return (
     <section id='Register'>
-    <div id='Register' className='pd-6'>
+    <div id='Register' className='pd-4'>
   
       
 <div className='row w-100  backround-color register-row '>

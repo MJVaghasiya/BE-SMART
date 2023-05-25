@@ -76,13 +76,13 @@ class Amazing extends React.Component {
                     <div className='container'>
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <img style={{ width: "100%" }} src={img4} />
+                                <img className='amazing-image' src={img4} />
                             </div>
                             <div className='col-lg-6 text-start'>
                                 <h3 style={{ fontSize: "2rem" }} >Design & style should always work toward  making you feel good.</h3>
                                 <p style={{ fontSize: ".9375rem" }} >Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam voluptatem quia volupti tempor ante netsum quia magni.
                                 </p>
-                                <ul className='feature-list' >
+                                <ul className='amazing-feature-list' >
                                     <li><img className='width-3' src={img5} /> Netsum est, qui ipsum quiaim netsum sequi net tempor.</li>
                                     <li><img className='width-3' src={img5} /> Etiam tempor ante acu ipsum finibus, atimus urnas.</li>
                                     <li><img className='width-3' src={img5} /> Atimus urnas netsudat, qui ipsum quiaim netsum.</li>
@@ -109,28 +109,28 @@ class Amazing extends React.Component {
                                 <div className='row'>
                                     <div className='col-sm-12 ds-flx ds-grid-auto '>
                                    
-                                        <div className='achived-card wow fadeIn ' data-wow-delay="0.15s">
+                                        <div className='achived-card wow fadeIn achived-display ' data-wow-delay="0.15s">
                                             <img className='hero-icon' src={img7} />
                                             <h4 className='fact-number'  >1050+</h4>
                                             <h6 className='fact-name' >Project Completed</h6>
                                         </div>
                                         
-                                        <div className='achived-card  wow fadeIn' data-wow-delay="0.30s">
+                                        <div className='achived-card  wow fadeIn achived-display' data-wow-delay="0.30s">
                                             <img className='hero-icon' src={img8} />
                                             <h4 className='fact-number'  >217k</h4>
                                             <h6 className='fact-name' >Happy Client</h6>
                                         </div>
-                                        <div className='achived-card  wow fadeIn' data-wow-delay="0.45s">
+                                        <div className='achived-card  wow fadeIn achived-display' data-wow-delay="0.45s">
                                             <img className='hero-icon' src={img9} />
                                             <h4 className='fact-number'  >1210+</h4>
                                             <h6 className='fact-name' >Design Award</h6>
                                         </div>
-                                        <div className='achived-card  wow fadeIn' data-wow-delay="0.60s">
+                                        <div className='achived-card  wow fadeIn achived-display' data-wow-delay="0.60s">
                                             <img className='hero-icon' src={img10} />
                                             <h4 className='fact-number'  >2137</h4>
                                             <h6 className='fact-name' >Cups of Coffee</h6>
                                         </div>
-                                        <div className='achived-card  wow fadeIn' data-wow-delay="0.75s">
+                                        <div className='achived-card  wow fadeIn achived-display' data-wow-delay="0.75s">
                                             <img className='hero-icon' src={img11} />
                                             <h4 className='fact-number'  >24/7</h4>
                                             <h6 className='fact-name' >Fast support</h6>

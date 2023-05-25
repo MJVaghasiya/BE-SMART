@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import 'bootstrap/dist/js/bootstrap.bundle';
-
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/Home';

@@ -5,7 +5,7 @@ import {BsPinterest} from 'react-icons/bs'
 import {BsDribbble} from 'react-icons/bs'
 import {ImInstagram} from 'react-icons/im'
 import {ImFacebook} from 'react-icons/im'
-import {AiFillSkype} from 'react-icons/ai'
+import {BsSkype} from 'react-icons/bs'
 
 
 const Touch = () => {
@@ -22,7 +22,7 @@ const Touch = () => {
                     <div className='page-underline-touch '>
                         <AiFillStar className='col-white' />
                     </div>
-                    <p className='page-head' >There are many variations of passages of Lorem Ipsum available, but the majority
+                    <p className='page-head' style={{color:"#bbb"}}>There are many variations of passages of Lorem Ipsum available, but the majority
                         have suffered alteration, by injected humour, or new randomised words.</p>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const Touch = () => {
     <div className='logo-border' ><BsPinterest className='col-gray' /></div>
     <div className='logo-border' ><ImFacebook  className='col-gray' /></div>
     <div className='logo-border' ><ImInstagram className='col-gray' /></div>
-    <div className='logo-border' ><AiFillSkype className='col-gray' /></div>
+    <div className='logo-border' ><BsSkype className='col-gray' /></div>
     <div className='logo-border' ><BsDribbble className='col-gray' /></div>
     </div>
 

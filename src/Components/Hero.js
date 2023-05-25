@@ -19,7 +19,7 @@ const Hero = () => {
         for (var i = 0; i < reveals.length; i++) {
           var windowHeight = window.innerHeight;
           var elementTop = reveals[i].getBoundingClientRect().top;
-          var elementVisible = 150;
+          var elementVisible = 100;
       
           if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("active");
@@ -63,21 +63,30 @@ Business With BeSmart?
         </ul>
     </div>
             <div className='partner-logo'>
-            <div className='container'>
-                <div className='row'>
-                    <div className='col-sm-12'>
+            <div className='container '>
+                <div className='row justify-content-center'>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
                     <img className='sponsor-logo' src={img5}/>
-<img className='sponsor-logo' src={img6}/>
-<img className='sponsor-logo' src={img7}/>
-<img className='sponsor-logo' src={img8}/>
-<img className='sponsor-logo' src={img9}/> 
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img6}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img7}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img8}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img9}/> 
+                    </div>
                     </div>
                 </div>
             </div>
             </div>
         </div>
        </div>
-        </div>
+    
         </section>
     )
 }
