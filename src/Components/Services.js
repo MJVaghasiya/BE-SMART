@@ -116,7 +116,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 {/* OVERLAP FUNCTION */}
 <div className='overlap-fixed-img-2'>
 
-<div className='try-it wow fadeIn '  data-wow-delay="0.60s"  data-wow-duration="3s">
+<div className='try-it wow fadeIn '  data-wow-delay="0.3s"  data-wow-duration="3s">
     <h1 className='try-it-heading' >Seen enough? Let's get started</h1>
     <p className='our-features' >No Fixed Contarct. No Installation Required. Trusted & Secure.</p>
     <button className='try-it-free' >TRY IT FOR FREE!</button>

@@ -14,7 +14,6 @@ import img9 from '../assets/partner5.png'
 import img10 from '../assets/imac.png'
 import img11 from '../assets/check-mark-white.png'
 import img12 from '../assets/chain2.png'
-// import { BsFacebook, BsInstagram, BsPinterest, BsTwitter, BsYoutube } from 'react-icons/bs'
 
 
 
@@ -37,8 +36,8 @@ const News = () => {
 
                 <div className='container'>
                     <div className='news-card-main '>
-                        <div className='row w-104 '>
-                            <div className='col-sm-4'> <div className='news-card ds-grid '>
+                        <div className='row w-100 justify-center'>
+                            <div className='col-sm-9 col-md-4'> <div className='news-card ds-grid '>
                                 <div className='news-card-img first '>
                                     <img className='card-img' src={img1} />
                                     <div class="middle">
@@ -61,7 +60,7 @@ const News = () => {
 
                             {/* SECOND */}
 
-                            <div className='col-sm-4'> <div className='news-card ds-grid '>
+                            <div className='col-sm-9 col-md-4'> <div className='news-card ds-grid '>
                                 <div className='news-card-img first '>
                                     <img className='card-img' src={img2} />
                                     <div class="middle">
@@ -83,7 +82,7 @@ const News = () => {
 
                             {/* THIRD */}
 
-                            <div className='col-sm-4'>  <div className='news-card ds-grid '>
+                            <div className='col-sm-9 col-md-4'>  <div className='news-card ds-grid '>
                                 <div className='news-card-img first'>
                                     <img className='card-img' src={img3} />
                                     <div class="middle">
@@ -110,12 +109,11 @@ const News = () => {
 
 
                 <div className='section-blue'>
-                    <div className='container'>
-                        <div className='row w-100 padding'>
+                
+                        <div className='row w-100 '>
                             <div className='col-sm-5 ds-flx border-right-padding '>
 
 
-                                {/* <div className='author-img'><img className='author' src={img4} /></div> */}
 
                                 <div className="round">
                                     <img src={img4} className='round-image' />
@@ -123,11 +121,11 @@ const News = () => {
 
                                 <div className='author-work'><p className='col-white' > <span className='fw-700' >ALICIA STEVENSON </span> <br /> Founder Freelancer</p></div>
                             </div>
-                            <div className='col-sm-7'>
+                            <div className='col-sm-7  padding-start'>
                                 <p className='author-info' >"Your time is limited, so do not waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking."</p>
                             </div>
                         </div>
-                    </div>
+                
                 </div>
 
 
@@ -147,20 +145,27 @@ const News = () => {
 
 
 
-                <div className='partner-logo mt-6'>
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-sm-12 '>
-                                <img className='sponsor-logo' src={img5} />
-                                <img className='sponsor-logo' src={img6} />
-                                <img className='sponsor-logo' src={img7} />
-                                <img className='sponsor-logo' src={img8} />
-                                <img className='sponsor-logo' src={img9} />
-                            </div>
-                        </div>
+                <div className=' register-row'>
+            <div className='container '>
+                <div className='row justify-content-center register-row'>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img5}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img6}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img7}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img8}/>
+                    </div>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <img className='sponsor-logo' src={img9}/> 
+                    </div>
                     </div>
                 </div>
-
+            </div>
 
 
 
@@ -195,7 +200,7 @@ const News = () => {
                         <button className='discover-more-news' >Discover More</button>
                     </div>
                     <div className='col-lg-6'>
-                        <img src={img10}className='pc-image'/>
+                        <img src={img10} className='pc-image' />
                     </div>
                 </div>
 

@@ -51,20 +51,9 @@ const Work = () => {
       </div>
 
 
-      {/* IMAGE CAROUSEL */}
-      {/* <Lightbox images={images} /> */}
-      {/* <div className='first'> */}
+     
       <div className="my-component">
-        {/* <div class="middle">
-            <div class="text">
-              <BsTwitter className='twitter' />
-              <BsFacebook className='facebook' />
-              <BsPinterest className='pinterest' />
-              <BsYoutube className='youtube' />
-            </div>
-          </div>
-        </div> */}
-        {/* render your images */}
+      
         {images?.map((image, index) => (
           <img key={index} src={image} alt={`myimg ${index}`} onClick={() => handleImageClick(index)} />
         ))}
@@ -77,14 +66,7 @@ const Work = () => {
             isOpen={isLightboxOpen}
             onRequestClose={handleLightboxClose}
           />
-          <div class="middle">
-            <div class="text">
-              <BsTwitter className='twitter' />
-              <BsFacebook className='facebook' />
-              <BsPinterest className='pinterest' />
-              <BsYoutube className='youtube' />
-            </div>
-          </div>
+        
         </div>
       </div>
 
