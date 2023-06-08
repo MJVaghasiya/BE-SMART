@@ -145,9 +145,9 @@ const News = () => {
 
 
 
-                <div className=' register-row'>
+                <div className='partner-logo1'>
             <div className='container '>
-                <div className='row justify-content-center register-row'>
+                <div className='row justify-content-center'>
                     <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
                     <img className='sponsor-logo' src={img5}/>
                     </div>
