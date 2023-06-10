@@ -20,8 +20,8 @@ const Price = () => {
             </div>
             <div className='container'>
 
-                <div className='row'>
-                <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                <div className='row justify-center'>
+                <div className='col-sm-7 col-md-4 col-lg-4 mt-4 price-width'>
                         <div className='price-card'>
                             <div className='price'>
                                 <h4 className='col-white'>STARTER</h4>
@@ -42,7 +42,7 @@ const Price = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                    <div className='col-sm-7 col-md-4 col-lg-4 mt-4 price-width'>
                         <div className='price-card'>
                             <div className='price'>
                                 <h4 className='col-white' >  ADVANCED</h4>
@@ -61,7 +61,7 @@ const Price = () => {
                                 <button className='btn-submit register-today' >REGISTER TODAY</button></div>
                         </div>
                     </div>
-                    <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                    <div className='col-sm-7 col-md-4 col-lg-4 mt-4 price-width'>
                         <div className='price-card'>
                             <div className='price'>
                                 <h4 className='col-white' >  INTERMEDIATE</h4>

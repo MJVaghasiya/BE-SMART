@@ -35,8 +35,8 @@ const News = () => {
                 </div>
 
                 <div className='container'>
-                    <div className='news-card-main '>
-                        <div className='row w-100 justify-center'>
+                    <div className='news-card-main justify-center '>
+                        <div className='row width-100 justify-center'>
                             <div className='col-sm-9 col-md-4'> <div className='news-card ds-grid '>
                                 <div className='news-card-img first '>
                                     <img className='card-img' src={img1} />
@@ -110,7 +110,7 @@ const News = () => {
 
                 <div className='section-blue'>
                 
-                        <div className='row w-100 '>
+                        <div className='row width-100 '>
                             <div className='col-sm-5 ds-flx border-right-padding '>
 
 
@@ -170,7 +170,7 @@ const News = () => {
 
 
 
-                {/* <div className='row w-100  backround-color register-row '>
+                {/* <div className='row width-100  backround-color register-row '>
   <div className='col-lg-6 padding-left-0 '>
   <h3 style={{ fontSize: "2rem" }} >Design & style should always work toward  making you feel good.</h3>
                                 <p style={{ fontSize: ".9375rem" }} >Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam voluptatem quia volupti tempor ante netsum quia magni.
@@ -186,7 +186,7 @@ const News = () => {
 <img src={img10}/>
   </div>
 </div> */}
-                <div className='row  backround-color w-100'>
+                <div className='row  backround-color width-100'>
                     <div className='col-lg-6 design '>
                         <h3 style={{ fontSize: "2.2rem" }} className='col-white' >Design & style should always work toward  making you feel good.</h3>
                         <p style={{ fontSize: "1rem" }} className='col-white' >Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam voluptatem quia volupti tempor ante netsum quia magni.

@@ -43,10 +43,10 @@ const Team = () => {
 
 
                                 <div className='container'>
-                                    <div className='row '>
+                                    <div className='row justify-center '>
 
 
-                                        <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                                        <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
                                             <div className='main-card'>
                                                 <div className='img-card first'>
 
@@ -69,7 +69,7 @@ const Team = () => {
 
 
 
-                                        <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                                        <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
                                             <div className='main-card1'>
                                                 <div className='img-card'>
                                                     <div className='first'>
@@ -92,7 +92,7 @@ const Team = () => {
 
 
 
-                                        <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                                        <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
                                             <div className='main-card2'>
                                                 <div className='img-card'>
                                                     <div className='first'>
@@ -124,7 +124,7 @@ const Team = () => {
                                     <div className='row '>
 
 
-                                        <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                                        <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
                                             <div className='main-card3'>
                                                 <div className='img-card'>
                                                     <div className='first'>
@@ -146,7 +146,7 @@ const Team = () => {
 
 
                                             </div></div>
-                                        <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                                        <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
                                             <div className='main-card4'>
                                                 <div className='img-card'>
                                                     <div className='first'>
@@ -171,7 +171,7 @@ const Team = () => {
 
 
 
-                                        <div className='col-sm-6 col-md-4 col-lg-4 mt-4'>
+                                        <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
                                             <div className='main-card5'>
                                                 <div className='img-card'>
                                                     <div className='first'>

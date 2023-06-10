@@ -8,9 +8,9 @@ const Register = () => {
     <div id='Register' className='pd-4'>
   
       
-<div className='row w-100  backround-color register-row '>
+<div className='row width-100  backround-color register-row '>
   <div className='col-lg-6 padding-left-0 padding-right-0'>
-<img className='w-100 ' src={img1}/>
+<img style={{width:"100%"}}  src={img1}/>
   </div>
   <div className='col-lg-6 register-col'>
 <h3 className='color' >Register Your Attendance Today.</h3>

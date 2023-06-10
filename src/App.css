@@ -108,7 +108,7 @@ ul {
   margin-bottom: 1.8rem !important;
 }
 
-.w-100 {
+.width-100 {
   width: 100%;
 }
 .w-120{
@@ -326,9 +326,19 @@ nav li.active a {
   position: relative;
 }
 
+@media only screen and (max-width: 450px) {
+  .hero-concept {
+    height: 700px;
+    }
+}
 @media only screen and (max-width: 900px) {
   .mr-35 {
     margin-right: 35px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .mr-35 {
+    margin-right: 0px !important;
   }
 }
 
@@ -347,8 +357,13 @@ li::marker {
   top: 11rem;
   color: white;
   width: 100%;
-  text-align: initial;
+  text-align: left;
   padding-left: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .hero-list {
+    padding-left: 2rem !important;
+  }
 }
 .reveal {
   position: relative;
@@ -369,6 +384,11 @@ li::marker {
   margin-bottom: 2rem !important;
   animation: up 3s;
 }
+@media screen and (max-width: 550px) {
+  .hero-header {
+    font-size: 2rem !important;
+  }
+}
 
 .pencil-text {
   padding-left: 1rem;
@@ -383,6 +403,7 @@ li::marker {
 .partner-logo1 {
   background-color: #eef0f1;
   padding: 20px 0;
+  margin-top: 5rem;
 }
 
 .sponsor-logo {
@@ -523,6 +544,11 @@ ul.page-list li {
   margin-top: 1rem;
   transition: all 0.5s ease;
 }
+@media screen and (max-width: 454px) {
+  .discover-more{
+    width: 40% !important;
+  }
+}
 .discover-more:hover {
   background: white;
 color: #34b1c4;
@@ -542,6 +568,11 @@ border: 1px solid #34b1c4;
   background-color: rgb(232, 232, 232);
   width: 100%;
   padding: 95px 0;
+}
+@media screen and (max-width: 550px) {
+  .design-style {
+    padding: 10px 0;
+  }
 }
 
 .amazing-feature-list li {
@@ -847,6 +878,19 @@ border: 1px solid #34b1c4;
     padding: 0 50px;
   }
 }
+@media screen and (max-width: 600px) {
+  .my-component {
+   
+    width: 70%;
+    display: inline-block;
+
+  }
+}
+@media screen and (max-width: 550px) {
+  .my-component {   
+    width: 100%;
+  }
+}
 
 .my-component img {
   width: 27%;
@@ -900,13 +944,12 @@ margin-top: 10%;
 @media screen and (max-width: 992px) {
   .register-row {
     display: grid !important;
-  }
-}
-@media screen and (max-width: 992px) {
-  .register-row {
+    --bs-gutter-x: 0rem;
     padding: 0px 0 !important;
+
   }
 }
+
 
 .register-p {
   width: 87%;
@@ -929,6 +972,11 @@ margin-top: 10%;
 @media screen and (max-width: 800px) {
   .register-p {
     width: 91%;
+  }
+}
+@media screen and (max-width: 453px) {
+  .register-p {
+  padding-right: 3rem;
   }
 }
 
@@ -996,7 +1044,7 @@ margin-top: 10%;
 
 @media only screen and (max-width: 900px) {
   .form-input {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -1074,6 +1122,12 @@ margin-top: 10%;
 
 .main-card {
   border-radius: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .team-width{
+    width: 70% !important;
+  }
 }
 
 .card-img {
@@ -1164,6 +1218,11 @@ margin-top: 10%;
 .amazing-card-icon {
   width: 3rem;
 }
+@media screen and (max-width: 550px) {
+  .amazing-card-icon {
+    margin: 10px 0;
+  }
+}
 
 .overlap-fixed-img-2 {
   background-image: url("../src/assets/overlay-2.jpg");
@@ -1178,8 +1237,13 @@ margin-top: 10%;
 
 .try-it {
   background: rgba(0, 0, 0, 0.45);
-  padding-top: 160px;
-  padding-bottom: 160px;
+padding: 160px 0;
+}
+@media screen and (max-width: 450px) {
+  .try-it {
+    padding: 100px 0;
+
+  }
 }
 
 .try-it-heading {
@@ -1211,6 +1275,16 @@ margin-top: 10%;
     width: 23%;
   }
 }
+@media screen and (max-width: 600px) {
+  .try-it-free {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .try-it-free {
+    width: 40%;
+  }
+}
 
 .news-card {
   width: 100%;
@@ -1226,6 +1300,12 @@ margin-top: 10%;
   margin-top: 2rem;
   width: 100%;
 }
+/* @media screen and (max-width: 768px) {
+  .news-card-intro {
+   text-align: center;
+  }
+} */
+
 
 .w-104 {
   width: 104%;
@@ -1265,7 +1345,12 @@ margin-top: 10%;
   text-align: start;
   padding: 10px;
 }
-
+@media only screen and (max-width: 550px) {
+  .padding-start {
+    text-align: center;
+    padding: 0 0;
+  }
+}
 .border-right-padding {
   border-right: 1px solid white;
   align-items: center;
@@ -1277,10 +1362,23 @@ margin-top: 10%;
     padding: 34px 0;
   }
 }
+@media only screen and (max-width: 550px) {
+  .border-right-padding {
+    border-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}
 
 @media only screen and (max-width: 900px) {
   .news-padding {
     padding: 26px 46px !important;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .border-right-padding {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1289,6 +1387,11 @@ margin-top: 10%;
   padding-left: 2rem;
 }
 
+@media only screen and (max-width: 650px) {
+  .author-work {
+    padding-left: 0.5rem ;
+  }
+}
 @media only screen and (max-width: 900px) {
   .author-work {
     padding-top: 0.5rem;
@@ -1390,6 +1493,17 @@ margin-top: 10%;
   border-bottom: 2px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
+}
+
+@media only screen and (max-width: 768px) {
+  .price-width{
+    width: 70% !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .price-width{
+    width: 90% !important;
+  }
 }
 
 .price {
@@ -1588,6 +1702,22 @@ margin-top: 10%;
     height: 35px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .logo-border {
+    width: 6%;
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .logo-border {
+    width: 7%;
+    }
+}
+@media only screen and (max-width: 450px) {
+  .logo-border {
+    width: 8%;
+    }
+}
 
 .logo-border:hover {
   background-color: #34b1c4;
@@ -1631,16 +1761,21 @@ margin-top: 10%;
   width: 100%;
   color: white;
   font-size: 28px;
-  padding: 200px 55px;
+  padding: 194px 55px;
   display: flex;
 }
 
+ @media only screen and (max-width: 768px) {
+  .text {
+    padding: 124px 56px !important;
+    }
+}
 @media only screen and (max-width: 900px) {
   .text {
     padding: 95px 36px;
     font-size: 28px;
   }
-}
+} 
 
 .chain {
   width: 100%;
@@ -1721,6 +1856,11 @@ margin-top: 10%;
     width: 148px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .round {
+    width: 110px;
+  }
+}
 
 .round-image {
   width: 100px;
@@ -1729,6 +1869,11 @@ margin-top: 10%;
 }
 
 @media only screen and (max-width: 992px) {
+  .round-image {
+    padding: 5px 3px;
+  }
+}
+@media only screen and (max-width: 600px) {
   .round-image {
     padding: 5px 3px;
   }
