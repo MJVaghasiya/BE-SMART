@@ -331,6 +331,11 @@ nav li.active a {
     height: 700px;
     }
 }
+@media only screen and (max-width: 400px) {
+  .hero-concept {
+    height: 800px;
+    }
+}
 @media only screen and (max-width: 900px) {
   .mr-35 {
     margin-right: 35px !important;
@@ -339,6 +344,11 @@ nav li.active a {
 @media only screen and (max-width: 450px) {
   .mr-35 {
     margin-right: 0px !important;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .mr-35 {
+    margin: auto !important;
   }
 }
 
@@ -363,6 +373,11 @@ li::marker {
 @media screen and (max-width: 600px) {
   .hero-list {
     padding-left: 2rem !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero-list {
+    padding-left: 1rem !important;
   }
 }
 .reveal {
@@ -457,6 +472,11 @@ li::marker {
    margin: 0 3rem;
   }
 }
+@media screen and (max-width: 350px) {
+  .color {
+   margin: 0 1rem;
+  }
+}
 
 .page-header {
   font-size: 35px;
@@ -520,6 +540,11 @@ li::marker {
 
 .width-3 {
   width: 2.3%;
+}
+@media screen and (max-width: 400px) {
+  .width-3 {
+    width: 4%;
+  }
 }
 
 .text-start {
@@ -891,6 +916,11 @@ border: 1px solid #34b1c4;
     width: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+  .my-component {   
+    padding: 0 30px;
+  }
+}
 
 .my-component img {
   width: 27%;
@@ -905,6 +935,13 @@ border: 1px solid #34b1c4;
     margin-left: 1.3rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .my-component img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
 
 .my-component img:hover {
   background-attachment: fixed;
@@ -935,8 +972,11 @@ border: 1px solid #34b1c4;
   padding: 20px 0 !important;
 margin-top: 10%;
 }
+.pd-4 row{
+  --bs-gutter-x: 0rem; 
+}
 
-@media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px) {
   .register-row {
     margin: 0 3rem;
   }
@@ -944,11 +984,16 @@ margin-top: 10%;
 @media screen and (max-width: 992px) {
   .register-row {
     display: grid !important;
-    --bs-gutter-x: 0rem;
+     --bs-gutter-x: 0rem; 
     padding: 0px 0 !important;
 
   }
 }
+@media screen and (max-width: 350px) {
+  .register-row {
+     --bs-gutter-x: 0rem; 
+  }
+} 
 
 
 .register-p {
@@ -979,6 +1024,12 @@ margin-top: 10%;
   padding-right: 3rem;
   }
 }
+@media screen and (max-width: 350px) {
+  .register-p {
+  padding-right: 1.5rem;
+  /* --bs-gutter-x: 0rem !important; */
+  }
+}
 
 .register-p-notice {
   width: 87%;
@@ -989,6 +1040,12 @@ margin-top: 10%;
 @media screen and (max-width: 800px) {
   .register-p-notice {
     text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .register-p-notice {
+    width: 100%;
+    margin: 0 0;
   }
 }
 
@@ -1023,6 +1080,11 @@ margin-top: 10%;
 @media screen and (max-width: 768px) {
   .register-col {
     width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .register-col {
+    /* --bs-gutter-x: 0rem; */
   }
 }
 
@@ -1062,6 +1124,11 @@ margin-top: 10%;
 @media only screen and (max-width: 768px) {
   .form {
     margin: 1.5rem 3rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .form {
+    margin: 1.5rem 1.5rem;
   }
 }
 
@@ -1127,6 +1194,11 @@ margin-top: 10%;
 @media screen and (max-width: 650px) {
   .team-width{
     width: 70% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .team-width{
+    width: 90% !important;
   }
 }
 
@@ -1416,6 +1488,12 @@ padding: 160px 0;
   line-height: 33px;
   margin-top: 1rem;
 }
+@media only screen and (max-width: 900px) {
+  .author-work {
+  margin-left: 0;
+  margin-top: 0;
+  }
+}
 
 .video {
   width: 100%;
@@ -1639,6 +1717,11 @@ padding: 160px 0;
     margin-top: 2.5rem;
   }
 }
+@media only screen and (max-width: 400px) {
+  .send-message {
+    width: 50%;
+  }
+}
 
 .touch-footer {
   background-color: #2f3539;
@@ -1718,6 +1801,11 @@ padding: 160px 0;
     width: 8%;
     }
 }
+@media only screen and (max-width: 400px) {
+  .logo-border {
+    width: 9%;
+    }
+}
 
 .logo-border:hover {
   background-color: #34b1c4;
@@ -1767,13 +1855,18 @@ padding: 160px 0;
 
  @media only screen and (max-width: 768px) {
   .text {
-    padding: 124px 56px !important;
+    padding: 124px 56px ;
     }
 }
 @media only screen and (max-width: 900px) {
   .text {
     padding: 95px 36px;
     font-size: 28px;
+  }
+} 
+@media only screen and (max-width: 400px) {
+  .text {
+    padding: 136px 78px;
   }
 } 
 
