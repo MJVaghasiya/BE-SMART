@@ -991,7 +991,7 @@ margin-top: 10%;
 }
 @media screen and (max-width: 350px) {
   .register-row {
-     --bs-gutter-x: 0rem; 
+     --bs-gutter-x: 0rem !important; 
   }
 } 
 
