@@ -65,19 +65,19 @@ Business With BeSmart?
             <div className='partner-logo'>
             <div className='container '>
                 <div className='row justify-content-center'>
-                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 '>
                     <img className='sponsor-logo' src={img5}/>
                     </div>
-                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 '>
                     <img className='sponsor-logo' src={img6}/>
                     </div>
-                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 '>
                     <img className='sponsor-logo' src={img7}/>
                     </div>
-                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 '>
                     <img className='sponsor-logo' src={img8}/>
                     </div>
-                    <div className='col-sm-3 col-md-2 mr-10  mt-4 mr-35 '>
+                    <div className='col-sm-3 col-md-2 mr-10  mt-4 '>
                     <img className='sponsor-logo' src={img9}/> 
                     </div>
                     </div>

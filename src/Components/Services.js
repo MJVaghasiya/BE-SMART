@@ -38,7 +38,7 @@ have suffered alteration, by injected humour, or new randomised words.</p>
 <div className='container'>
 <img className='services-img' src={img1}/>
 <div className='services-card'>
-    <div className='row'>
+    <div className='row mx-auto'>
          <div className='col-sm-6 col-md-6 col-lg-4 mt-'><div className='full-des  wow fadeIn'  data-wow-delay="0.15s">
     <div className='des-icon'>
 <img className='amazing-card-icon' src={img2}/>

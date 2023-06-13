@@ -8,12 +8,12 @@ const Register = () => {
     <div id='Register' className='pd-4'>
   
       
-<div className='row bs-gutter-0 backround-color register-row '>
+<div className='row bs-gutter-0 w-100 backround-color register-row '>
   <div className='col-lg-6 padding-left-0 padding-right-0'>
 <img style={{width:"100%"}}  src={img1}/>
   </div>
   <div className='col-lg-6 register-col'>
-<h3 className='color' >Register Your Attendance Today.</h3>
+<h2 className='color' >Register Your Attendance Today.</h2>
 <p className='color register-p'>Curabitur quam etsum lacus etsumis nulat iaculis etsum vitae etsum nisle varius loremis sed feugiat ligula aliquam ets vitae dictis netsum et ipsum netsum et quia nihilse etsa illum sedit consequatur quias sit coloris.</p>
  <div className='form'>
   <input className='form-input' type='text' placeholder='Full Name*'></input>
