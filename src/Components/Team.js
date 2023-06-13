@@ -121,7 +121,7 @@ const Team = () => {
                             <div class="carousel-item">
 
                                 <div className='container'>
-                                    <div className='row '>
+                                    <div className='row justify-center  '>
 
 
                                         <div className='col-sm-7 col-md-4 col-lg-4 mt-4 team-width'>
