@@ -1499,6 +1499,11 @@ padding: 160px 0;
     padding-bottom: 0px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .border-right-padding {
+    border: none;
+  }
+}
 
 @media only screen and (max-width: 900px) {
   .news-padding {
