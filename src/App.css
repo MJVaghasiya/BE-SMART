@@ -339,6 +339,11 @@ nav li.active a {
     height: 800px;
     }
 }
+@media only screen and (max-width: 400px) {
+  .hero-concept {
+    height: 950px;
+}
+}
 @media only screen and (max-width: 900px) {
   .mr-35 {
     margin-right: 35px !important;
@@ -422,6 +427,9 @@ li::marker {
   background-color: #eef0f1;
   padding: 20px 0;
   margin-top: 5rem;
+}
+.backround-color{
+  --bs-gutter-x: 0 !important;
 }
 
 .sponsor-logo {
@@ -1396,6 +1404,12 @@ padding: 160px 0;
     width: 50%;
   }
 }
+@media screen and (max-width: 290px) {
+  .try-it-free {
+    width: 60%;
+  }
+}
+
 
 .news-card {
   width: 100%;
@@ -1614,9 +1628,14 @@ padding: 160px 0;
     width: 38%;
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 358px) {
   .discover-more-news {
-    width: 50%;
+    width: 50% ;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .discover-more-news {
+    width: 60%;
   }
 }
 
@@ -1868,6 +1887,11 @@ padding: 160px 0;
 @media only screen and (max-width: 350px) {
   .logo-border {
     width: 10%;
+    }
+}
+@media only screen and (max-width: 290px) {
+  .logo-border {
+    width: 11%;
     }
 }
 
