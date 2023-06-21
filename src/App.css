@@ -1611,6 +1611,11 @@ padding: 160px 0;
     padding-left: 35px !important;
   }
 }
+@media only screen and (max-width: 358px) {
+  .design {
+    padding: 0 30px !important;
+  }
+}
 
 .discover-more-news {
   border: none;
@@ -1630,7 +1635,7 @@ padding: 160px 0;
 }
 @media only screen and (max-width: 358px) {
   .discover-more-news {
-    width: 50% ;
+    width: 55% ;
   }
 }
 @media only screen and (max-width: 290px) {
