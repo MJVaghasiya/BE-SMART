@@ -186,7 +186,7 @@ const News = () => {
 <img src={img10}/>
   </div>
 </div> */}
-                <div className='row  backround-color width-100'>
+                <div className='row  backround-color bs-gutter-0'>
                     <div className='col-lg-6 design '>
                         <h3 style={{ fontSize: "2.2rem" }} className='col-white' >Design & style should always work toward  making you feel good.</h3>
                         <p style={{ fontSize: "1rem" }} className='col-white' >Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam voluptatem quia volupti tempor ante netsum quia magni.
