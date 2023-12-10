@@ -52,7 +52,7 @@ const Team = () => {
 
                                                     <img className='card-img' src={img1} />
                                                     <div class="middle">
-                                                        <div class="text">
+                                                        <div class="chain text" >
                                                             <BsTwitter className='twitter' />
                                                             <BsFacebook className='facebook' />
                                                             <BsPinterest className='pinterest' />
@@ -75,7 +75,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img2} />
                                                         <div class="middle">
-                                                            <div class="text">
+                                                            <div class="chain text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -98,7 +98,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img3} />
                                                         <div class="middle">
-                                                            <div class="text">
+                                                            <div class="chain text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -130,7 +130,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img3} />
                                                         <div class="middle">
-                                                            <div class="text">
+                                                            <div class="chain text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -152,7 +152,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img4} />
                                                         <div class="middle">
-                                                            <div class="text">
+                                                            <div class="chain text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -177,7 +177,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img5} />
                                                         <div class="middle">
-                                                            <div class="text">
+                                                            <div class="chain text">
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />

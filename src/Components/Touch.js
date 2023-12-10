@@ -29,17 +29,18 @@ const Touch = () => {
 
 
             <div className='container'>
-                <div className='touch-form'>
-                    <input className='form-input form-input-width' type='text' placeholder='Full Name*'></input>
-                    <input className='form-input form-input-width' type='text' placeholder='Email Adress*'></input>
-                    <input className='form-input form-input-width' type='text' placeholder='Subject*'></input>
-                    <input className='form-input form-input-width' type='text' placeholder='Phone Number*'></input>
-                    <textarea className='form-textarea' type='text'  placeholder='Your Message...' ></textarea>
-
-
-                    <button className='send-message' >SEND MESSAGE</button>
+                <div className='touch-card '>
+                    <input className='touch-form-input ' type='text' placeholder='Full Name*'></input>
+                    <input className='touch-form-input ' type='text' placeholder='Email Adress*'></input>
+                    <input className='touch-form-input ' type='text' placeholder='Subject*'></input>
+                    <input className='touch-form-input ' type='text' placeholder='Phone Number*'></input>
+                   
 
                 </div>
+                <textarea className='form-textarea' type='text'  placeholder='Your Message...' ></textarea>
+
+
+<button className='send-message' >SEND MESSAGE</button>
             </div>
 
         </div>

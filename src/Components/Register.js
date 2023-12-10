@@ -9,8 +9,8 @@ const Register = () => {
   
       
 <div className='row backround-color register-row '>
-  <div className='col-lg-6 padding-left-0 padding-right-0'>
-<img style={{width:"100%"}}  src={img1}/>
+  <div className='col-lg-6'>
+<img style={{width:"100%",height: "-webkit-fill-available"}}  src={img1}/>
   </div>
   <div className='col-lg-6 register-col'>
 <h2 className='color' >Register Your Attendance Today.</h2>
@@ -28,7 +28,7 @@ const Register = () => {
   <option value='Three Day Access'>Three Day Access</option>
   
 </select>
-<input type='submit' value='REGISTER-NOW' className='form-input btn-submit' ></input>
+<input type='submit' value='REGISTER-NOW' className='btn-submit register-submit'  style={{border:"none",borderRadius:"5px",height:"50px"}}></input>
 <p className='color register-p-notice' >*We process the payment via a secure gateway.</p>
  </div>
   </div>
