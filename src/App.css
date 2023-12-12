@@ -1705,14 +1705,14 @@ padding: 160px 0;
   color: white;
   padding: 10px;
   border-radius: 5px;
-  width: 100%;
+  width: 10%;
   margin-right: 2rem;
   height: 200px;
   outline: none;
 }
 @media only screen and (max-width: 800px) {
   .form-textarea {
-    width: 100%;
+    width: 10%;
   }
 }
 
@@ -2073,7 +2073,7 @@ padding: 160px 0;
 .touch-form-input{
   background: none;
   border: 1px solid #757575;
-  width: 95%;
+  width: 100%;
   height: 50px;
   border-radius: 6px;
   color: white;
@@ -2083,6 +2083,7 @@ padding: 160px 0;
   outline: none;
 }
 .touch-card{
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 15px;
@@ -2091,5 +2092,17 @@ padding: 160px 0;
   .touch-card{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+@media only screen and (max-width: 300px) {
+  .touch-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+@media only screen and (max-width: 286px) {
+  .touch-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
   }
 }

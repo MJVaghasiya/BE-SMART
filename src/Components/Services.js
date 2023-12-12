@@ -38,7 +38,7 @@ class Services extends React.Component {
                     <div className='container'>
                         <img className='services-img' src={img1} />
                         <div className='services-card mt-5'>
-                            <div className='full-des  wow fadeIn' data-wow-delay="0.15s">
+                            <div className='full-des   wow fadeIn' data-wow-delay="0.15s">
                                 <div className='des-icon'>
                                     <img className='amazing-card-icon' src={img2} />
                                 </div><div className='description'>
@@ -46,7 +46,7 @@ class Services extends React.Component {
                                     <p>Curabitur quas nets lacus et nulat niste iaculis etimusad nisle varius etim vitae seditum ligulase quiste net sequi.</p>
                                 </div>
                             </div>
-                            <div className='full-des  wow fadeIn ' data-wow-delay="0.30s">
+                            <div className='full-des   wow fadeIn ' data-wow-delay="0.30s">
                                 <div className='des-icon'>
                                     <img className='amazing-card-icon' src={img3} />
                                 </div><div className='description'>
@@ -54,7 +54,7 @@ class Services extends React.Component {
                                     <p>Curabitur quas nets lacus et nulat niste iaculis etimusad nisle varius etim vitae seditum ligulase quiste net sequi.</p>
                                 </div>
                             </div>
-                            <div className='full-des  wow fadeIn' data-wow-delay="0.45s">
+                            <div className='full-des   wow fadeIn' data-wow-delay="0.45s">
                                 <div className='des-icon'>
                                     <img className='amazing-card-icon' src={img4} />
                                 </div><div className='description'>
@@ -62,7 +62,7 @@ class Services extends React.Component {
                                     <p>Curabitur quas nets lacus et nulat niste iaculis etimusad nisle varius etim vitae seditum ligulase quiste net sequi.</p>
                                 </div>
                             </div>
-                            <div className='full-des  wow fadeIn' data-wow-delay="0.6s">
+                            <div className='full-des   wow fadeIn' data-wow-delay="0.60s">
                                 <div className='des-icon'>
                                     <img className='amazing-card-icon' src={img5} />
                                 </div><div className='description'>
@@ -70,7 +70,7 @@ class Services extends React.Component {
                                     <p>Curabitur quas nets lacus et nulat niste iaculis etimusad nisle varius etim vitae seditum ligulase quiste net sequi.</p>
                                 </div>
                             </div>
-                            <div className='full-des  wow fadeIn' data-wow-delay="0.75s">
+                            <div className='full-des   wow fadeIn' data-wow-delay="0.75s">
                                 <div className='des-icon'>
                                     <img className='amazing-card-icon' src={img6} />
                                 </div><div className='description'>
@@ -78,7 +78,7 @@ class Services extends React.Component {
                                     <p>Curabitur quas nets lacus et nulat niste iaculis etimusad nisle varius etim vitae seditum ligulase quiste net sequi.</p>
                                 </div>
                             </div>
-                            <div className='full-des  wow fadeIn ' data-wow-delay="0.9s">
+                            <div className='full-des   wow fadeIn ' data-wow-delay="0.90s">
                                 <div className='des-icon'>
                                     <img className='amazing-card-icon' src={img7} />
                                 </div><div className='description'>
