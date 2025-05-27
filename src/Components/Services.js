@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillStar } from 'react-icons/ai'
-import img1 from '../assets/services 1.png'
+import img1 from '../assets/services 1.webp'
 import img2 from '../assets/pencil.png'
 import img3 from '../assets/setting-blue.png'
 import img4 from '../assets/target.png'

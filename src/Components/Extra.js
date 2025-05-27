@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../assets/authorimg.jpg'
+import img1 from '../assets/authorimg.webp'
 
 const Extra = () => {
     return (

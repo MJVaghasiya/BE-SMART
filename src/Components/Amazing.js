@@ -3,7 +3,7 @@ import { AiFillStar } from 'react-icons/ai'
 import img1 from '../assets/fully-customizable.png'
 import img2 from '../assets/responsive-design.png'
 import img3 from '../assets/ready-code.png'
-import img4 from '../assets/work.jpg'
+import img4 from '../assets/work.webp'
 import img5 from '../assets/check-mark-blue.png'
 import img7 from '../assets/pencil.png'
 import img8 from '../assets/umbrella.png'
@@ -24,7 +24,6 @@ class Amazing extends React.Component {
                 <div>
                     <div className='amazing-feature pd-6' id='Amazing'>
                         <div className='page'>
-
                             <h2 className='page-header' >Amazing Features</h2>
                             <div className='page-underline '>
                                 <AiFillStar className='color' />
@@ -34,10 +33,8 @@ class Amazing extends React.Component {
                         </div>
 
                         <div className='container'>
-
-
                             <div className='feature-card'>
-                            <div className="card" >
+                                <div className="card" >
                                     <img src={img1} className="card-img-top" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title weight-700">Fully Customizable</h5>
@@ -61,18 +58,17 @@ class Amazing extends React.Component {
                             </div>
                         </div>
 
-
                         <div className='design-style'>
                             <div className='container'>
-                                <div className='row'>
+                                <div className='row align-items-center'>
                                     <div className='col-lg-6'>
                                         <img className='amazing-image' src={img4} />
                                     </div>
                                     <div className='col-lg-6 text-start'>
-                                        <h3 style={{ fontSize: "2rem" }} >Design & style should always work toward  making you feel good.</h3>
-                                        <p style={{ lineHeight: "25px", fontSize: "1.03rem", fontFamily: "'Open Sans', sans-serif" }} >Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam voluptatem quia volupti tempor ante netsum quia magni.
+                                        <h3 >Design & style should always work toward  making you feel good.</h3>
+                                        <p >Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam voluptatem quia volupti tempor ante netsum quia magni.
                                         </p>
-                                        <ul className='amazing-feature-list' style={{letterSpacing:".5px"}} >
+                                        <ul className='amazing-feature-list' style={{ letterSpacing: ".5px" }} >
                                             <li><img className='width-3' src={img5} /> Netsum est, qui ipsum quiaim netsum sequi net tempor.</li>
                                             <li><img className='width-3' src={img5} /> Etiam tempor ante acu ipsum finibus, atimus urnas.</li>
                                             <li><img className='width-3' src={img5} /> Atimus urnas netsudat, qui ipsum quiaim netsum.</li>

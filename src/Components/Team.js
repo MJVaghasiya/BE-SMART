@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { AiFillStar } from 'react-icons/ai'
-import img1 from '../assets/team1.jpg'
-import img2 from '../assets/team2.jpg'
-import img3 from '../assets/team3.jpg'
-import img4 from '../assets/team3(1).jpg'
-import img5 from '../assets/team5.jpg'
+import img1 from '../assets/team1.webp'
+import img2 from '../assets/team2.webp'
+import img3 from '../assets/team3.webp'
+import img4 from '../assets/team3(1).webp'
+import img5 from '../assets/team5.webp'
 import { BsFacebook, BsPinterest, BsTwitter, BsYoutube } from 'react-icons/bs'
 
 
@@ -52,7 +52,7 @@ const Team = () => {
 
                                                     <img className='card-img' src={img1} />
                                                     <div class="middle">
-                                                        <div class="chain text" >
+                                                        <div class="social-links text" >
                                                             <BsTwitter className='twitter' />
                                                             <BsFacebook className='facebook' />
                                                             <BsPinterest className='pinterest' />
@@ -75,7 +75,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img2} />
                                                         <div class="middle">
-                                                            <div class="chain text" >
+                                                            <div class="social-links text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -98,7 +98,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img3} />
                                                         <div class="middle">
-                                                            <div class="chain text" >
+                                                            <div class="social-links text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -130,7 +130,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img3} />
                                                         <div class="middle">
-                                                            <div class="chain text" >
+                                                            <div class="social-links text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -152,7 +152,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img4} />
                                                         <div class="middle">
-                                                            <div class="chain text" >
+                                                            <div class="social-links text" >
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />
@@ -177,7 +177,7 @@ const Team = () => {
                                                     <div className='first'>
                                                         <img className='card-img' src={img5} />
                                                         <div class="middle">
-                                                            <div class="chain text">
+                                                            <div class="social-links text">
                                                                 <BsTwitter className='twitter' />
                                                                 <BsFacebook className='facebook' />
                                                                 <BsPinterest className='pinterest' />

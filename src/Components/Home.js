@@ -16,16 +16,16 @@ const Home = () => {
   return (
     <div>
       {/* <Nav/> */}
-        <Navbar/>
-        <Hero/>
-        <Amazing/>
-        <Work/>
-        <Register/>
-        <Team/>
-        <Services/>
-      <News/>
-      <Price/>
-      <Touch/>
+      <Navbar />
+      <Hero />
+      <Amazing />
+      <Work />
+      <Register />
+      <Team />
+      <Services />
+      <News />
+      <Price />
+      <Touch />
       {/* <Extra/> */}
     </div>
   )
